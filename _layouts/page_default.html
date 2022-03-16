@@ -4,17 +4,7 @@
   
 
   <body>
-  {%- if site.data.navigation -%}
-	<div class="sidebar-top">
-    <ul class="navigation-list">
-    {%- for nav in site.data.navigation -%}
-      <li class="navigation-item">
-        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a>
-      </li>
-    {%- endfor -%}
-    </ul>
-	</div>
-  {%- endif -%}
+
     <div class="container pure-g">
 	  {%- assign cover_bg_color = site.cover_bg_color | default: "rgb(40, 73, 77)" -%}
       {%- assign cover_color    = site.cover_color    | default: "rgb(255, 255, 255)" -%}
@@ -29,7 +19,7 @@
         {%- assign cover_image     = page.cover_image -%}
       {%- endif -%}
 	  
-	  <div class="sidebar-left pure-u-1 pure-u-md-1-4">
+	  <div class="sidebar-left pure-u-1 pure-u-md-1-5">
 			{%- include sidebar-right2.html -%}
 	  </div>
       <div class="content pure-u-1  pure-u-md-2-3">
