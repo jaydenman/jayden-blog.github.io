@@ -1,4 +1,6 @@
-- title: Blog
+- title: Index
+  url: /
+- title: Tags
   url: /tags/
 - title: About
   url: /about/
