@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Welcome to Not Pure Poole
+title: Welcome to Jayden blog
 date: 2020-09-29 23:18 +0800
 last_modified_at: 2020-10-01 01:08:25 +0800
 tags: [jekyll theme, jekyll, tutorial]
 toc:  true
 ---
-Welcome to **Not Pure Poole**! This is an example post to show the layout.
+Welcome to **Jayden blog**! This is an example post to show the layout.
 {: .message }
 
 First, do you notice the TOC on the right side? Try to scroll down to read this post, you'll find that the TOC is always sticky in the viewport.
@@ -164,6 +164,6 @@ Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur e
 
 -----
 
-Want to see something else added? <a href="https://github.com/jaydenman/not-pure-poole/issues/new">Open an issue.</a>
+Want to see something else added? <a href="https://github.com/jaydenman/jayden-blog/issues/new">Open an issue.</a>
 
 [^fn-sample_footnote]: Handy! Now click the return link to go back.

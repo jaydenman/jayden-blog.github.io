@@ -1,10 +1,10 @@
-# Not Pure Poole <!-- omit in toc -->
+# Jayden blog <!-- omit in toc -->
 
 <a href="https://jekyll-themes.com">
   <img src="https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg" height="20" alt="Jekyll Themes Shield" >
 </a>
 
-**Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
+**Jayden blog** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
 
 > Poole explains that Jekyll has been asking for a particular chemical for days now but every time it has been fetched for him he rejects it as **not pure**. Poole also explains that he caught a glimpse of the man inside and he looked barely human.
 >
@@ -12,7 +12,7 @@
 
 -----
 
-See Not Pure Poole in action with [the demo site](https://jaydenman.github.io/not-pure-poole/).
+See Jayden blog in action with [the demo site](https://jaydenman.github.io/jayden-blog/).
 
 ![Screenshot](screenshot.png)
 
@@ -56,19 +56,19 @@ See Not Pure Poole in action with [the demo site](https://jaydenman.github.io/no
 
 ## Installation
 
-You can choose one of the following methods to install Not Pure Poole:
+You can choose one of the following methods to install Jayden blog:
 
-- Directly specify the `not-pure-poole` gem.
+- Directly specify the `jayden-blog` gem.
 
-    1. Add `gem 'not-pure-poole'` into your `Gemfile`.
+    1. Add `gem 'jayden-blog'` into your `Gemfile`.
     2. Add the below lines into your `_config.yml`.
 
         ```yml
         plugins:
-          - not-pure-poole
+          - jayden-blog
         ```
 
-- If your site is hosted on GitHub Pages, you can use [`jekyll-remote-theme`](https://github.com/benbalter/jekyll-remote-theme) to import the master branch of Not Pure Poole.
+- If your site is hosted on GitHub Pages, you can use [`jekyll-remote-theme`](https://github.com/benbalter/jekyll-remote-theme) to import the master branch of Jayden blog.
 
     1. Add `gem 'jekyll-remote-theme'` into your `Gemfile`.
     2. Add the below lines into your `_config.yml`.
@@ -77,12 +77,12 @@ You can choose one of the following methods to install Not Pure Poole:
         plugins:
           - jekyll-remote-theme
 
-        remote_theme: jaydenman/not-pure-poole
+        remote_theme: jaydenman/jayden-blog
         ```
 
 ## Usage
 
-You can read this [example post](https://jaydenman.github.io/not-pure-poole/2020/09/29/welcome-to-not-pure-poole/) to see the rendering result in this theme, and put the [source](_posts/2020-09-29-welcome-to-not-pure-poole.md) aside to learn some basic usages.
+You can read this [example post](https://jaydenman.github.io/jayden-blog/2020/09/29/welcome-to-jayden-blog/) to see the rendering result in this theme, and put the [source](_posts/2020-09-29-welcome-to-jayden-blog.md) aside to learn some basic usages.
 
 ### Configuration
 
@@ -90,7 +90,7 @@ The [`_config.yml`](_config.yml) file in this repository already contains some v
 
 ### Customizing Head
 
-Not Pure Poole leaves a placeholder to allow defining custom head, in principle, you can add anything here, e.g. favicons. All you need to do is just creating a file `_includes/custom-head.html` and put data into it.
+Jayden blog leaves a placeholder to allow defining custom head, in principle, you can add anything here, e.g. favicons. All you need to do is just creating a file `_includes/custom-head.html` and put data into it.
 
 ### Creating Themes
 
@@ -142,13 +142,13 @@ You can set your social links in `_data/social.yml`. You can custom titles, URLs
   url: https://twitter.com/jaydenman
   icon: fab fa-twitter
 - title: GitHub
-  url: https://github.com/jaydenman/not-pure-poole
+  url: https://github.com/jaydenman/jayden-blog
   icon: fab fa-github
 ```
 
 ### Enabling Posts Archive
 
-Not Pure Poole supports posts archive by date, categories, and tags. For enabling that, you should put some data like below into `_data/archive.yml`:
+Jayden blog supports posts archive by date, categories, and tags. For enabling that, you should put some data like below into `_data/archive.yml`:
 
 ```yml
 - type: dates
@@ -205,7 +205,7 @@ To set up your environment to develop this theme, run `bundle install`.
 Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `not-pure-poole.gemspec` accordingly.
+To add a custom directory to your theme-gem, please edit the regexp in `jayden-blog.gemspec` accordingly.
 
 ## License
 

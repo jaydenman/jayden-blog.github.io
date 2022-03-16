@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    not-pure-poole (0.1.0)
+    jayden-blog (0.1.0)
       jekyll (~> 3.9)
       jekyll-feed (~> 0.13)
       jekyll-gist (~> 1.5)
@@ -94,7 +94,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.1)
   jekyll-compose
-  not-pure-poole!
+  jayden-blog!
   rake (~> 12.0)
 
 BUNDLED WITH
