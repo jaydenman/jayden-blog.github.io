@@ -11,7 +11,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-[svm](./machine_learning/svm.md)
+[svm](https://github.com/jaydenman/jayden-blog.github.io/edit/gh-pages/machine_learning/svm.md)
 
 # Header 1
 ## Header 2
