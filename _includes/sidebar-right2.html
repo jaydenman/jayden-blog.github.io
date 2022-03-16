@@ -1,5 +1,5 @@
 
-<header class="masthead">
+<center>
   {% if site.avatar -%}
     <div class="avatar">
       {%- if site.avatar contains "://" -%}
@@ -16,7 +16,7 @@
   <div class="masthead-tagline">
     <small>{{ site.description }}</small>
   </div>
-</header>
+</center>
   
 {% if page.toc %}
 <div  class="toc-wrapper">
@@ -27,7 +27,7 @@
 </div>
 {% endif %}
   
-<header class="masthead">
+<center>
   {%- if site.data.navigation -%}
   <nav class="navigation">
     <ul class="navigation-list">
@@ -54,4 +54,4 @@
       </ul>
     </div>
   {%- endif %}
-</header>
+</center>
