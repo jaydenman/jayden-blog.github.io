@@ -3,7 +3,7 @@ layout: post
 title: Welcome to Jayden blog
 date: 2022-03-01 23:18 +0800
 last_modified_at: 2022-03-01 01:08:25 +0800
-tags: [help]
+tags: [index]
 toc:  true
 ---
 Welcome to **Jayden blog**! This is an example post to show the layout.

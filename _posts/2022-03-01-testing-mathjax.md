@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing MathJax
-tags: example
+tags: math_example
 math: true
 date: 2022-03-01 15:32 +0800
 ---
