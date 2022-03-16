@@ -12,7 +12,7 @@
 
 -----
 
-See Not Pure Poole in action with [the demo site](https://vszhub.github.io/not-pure-poole/).
+See Not Pure Poole in action with [the demo site](https://jaydenman.github.io/not-pure-poole/).
 
 ![Screenshot](screenshot.png)
 
@@ -77,12 +77,12 @@ You can choose one of the following methods to install Not Pure Poole:
         plugins:
           - jekyll-remote-theme
 
-        remote_theme: vszhub/not-pure-poole
+        remote_theme: jaydenman/not-pure-poole
         ```
 
 ## Usage
 
-You can read this [example post](https://vszhub.github.io/not-pure-poole/2020/09/29/welcome-to-not-pure-poole/) to see the rendering result in this theme, and put the [source](_posts/2020-09-29-welcome-to-not-pure-poole.md) aside to learn some basic usages.
+You can read this [example post](https://jaydenman.github.io/not-pure-poole/2020/09/29/welcome-to-not-pure-poole/) to see the rendering result in this theme, and put the [source](_posts/2020-09-29-welcome-to-not-pure-poole.md) aside to learn some basic usages.
 
 ### Configuration
 
@@ -136,13 +136,13 @@ You can set your social links in `_data/social.yml`. You can custom titles, URLs
 
 ```yml
 - title: Email
-  url: mailto://vszhub@gmail.com
+  url: mailto://jaydenman@gmail.com
   icon: fas fa-envelope
 - title: Twitter
-  url: https://twitter.com/vszhub
+  url: https://twitter.com/jaydenman
   icon: fab fa-twitter
 - title: GitHub
-  url: https://github.com/vszhub/not-pure-poole
+  url: https://github.com/jaydenman/not-pure-poole
   icon: fab fa-github
 ```
 
