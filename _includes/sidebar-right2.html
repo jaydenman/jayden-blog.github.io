@@ -1,5 +1,4 @@
-
-<center>
+<div>
   {% if site.avatar -%}
     <div class="avatar">
       {%- if site.avatar contains "://" -%}
@@ -16,20 +15,17 @@
   <div class="masthead-tagline">
     <small>{{ site.description }}</small>
   </div>
-</center>
-  
+
 {% if page.toc %}
-<div  class="toc-wrapper">
   <h2>目录</h2>
    <nav class="navigation">
 	  {% include toc.html html=content h_min=2 h_max=3 skipNoIDs=true class="navigation-list" %}
    </nav>
-</div>
 {% endif %}
-  
-<center>
+
   {%- if site.data.navigation -%}
   <nav class="navigation">
+    <h2></h2>
     <ul class="navigation-list">
     {%- for nav in site.data.navigation -%}
       <li class="navigation-item">
@@ -39,7 +35,6 @@
     </ul>
   </nav>
   {%- endif -%}
-  
   
   {% if site.data.social -%}
     <div class="social pure-menu pure-menu-horizontal">
@@ -54,4 +49,4 @@
       </ul>
     </div>
   {%- endif %}
-</center>
+</div>
