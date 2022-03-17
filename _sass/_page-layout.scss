@@ -28,6 +28,12 @@
   height: 100vh;
 }
 
+.sidebar-bottom {
+  position: absolute;
+  bottom: var(--spacer-2);
+  left: var(--spacer-2);
+}
+
 footer {
   margin-top: var(--spacer-3);
   margin-bottom: var(--spacer-3);
