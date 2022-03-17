@@ -1,10 +1,10 @@
 <div>
 
   <div class="masthead-title">
-    <a href="{{ "/" | relative_url }}" title="Home">博客首页</a>
+    <a href="{{ "/" | relative_url }}" title="Home">{{ site.title }}</a>
   </div>
   <div class="masthead-tagline">
-    <small>{{ site.description }}</small>
+    <small><a href="{{ "/" | relative_url }}" title="Home">{{ site.description }}</a></small>
   </div>
 
 {% if page.toc %}
